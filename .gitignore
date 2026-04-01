@@ -1,0 +1,23 @@
+# Node
+node_modules/
+dist/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Vite
+frontend/dist/
+frontend/node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Vercel
+.vercel
