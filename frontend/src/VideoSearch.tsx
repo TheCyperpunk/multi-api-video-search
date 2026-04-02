@@ -284,8 +284,8 @@ const VideoSearch: React.FC = () => {
         </button>
       </form>
 
-      {/* Slim Ad Banner (300x100) */}
-      <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '20px' }}>
+      {/* Slim Ad Banners (300x100) */}
+      <div style={{ display: 'flex', justifyContent: 'center', gap: '20px', flexWrap: 'wrap', marginBottom: '20px' }}>
         <iframe
           style={{ backgroundColor: 'white' }}
           width="300"
@@ -298,6 +298,19 @@ const VideoSearch: React.FC = () => {
           name="spot_id_10001817"
           src="https://a.adtng.com/get/10001817?ata=Malludesi"
           title="Slim Ad"
+        />
+        <iframe
+          style={{ backgroundColor: 'white' }}
+          width="300"
+          height="100"
+          scrolling="no"
+          frameBorder={0}
+          allowTransparency={true}
+          marginHeight={0}
+          marginWidth={0}
+          name="spot_id_10001814"
+          src="https://a.adtng.com/get/10001814?ata=Malludesi"
+          title="Slim Ad 2"
         />
       </div>
 
@@ -344,6 +357,19 @@ const VideoSearch: React.FC = () => {
         />
         <iframe
           style={{ backgroundColor: 'white' }}
+          width="300"
+          height="250"
+          scrolling="no"
+          frameBorder={0}
+          allowTransparency={true}
+          marginHeight={0}
+          marginWidth={0}
+          name="spot_id_10001813"
+          src="https://a.adtng.com/get/10001813?ata=Malludesi"
+          title="Advertisement 4"
+        />
+        <iframe
+          style={{ backgroundColor: 'white' }}
           width="315"
           height="300"
           scrolling="no"
@@ -353,7 +379,20 @@ const VideoSearch: React.FC = () => {
           marginWidth={0}
           name="spot_id_10001816"
           src="https://a.adtng.com/get/10001816?ata=Malludesi"
-          title="Advertisement Large"
+          title="Advertisement Large 1"
+        />
+        <iframe
+          style={{ backgroundColor: 'white' }}
+          width="315"
+          height="300"
+          scrolling="no"
+          frameBorder={0}
+          allowTransparency={true}
+          marginHeight={0}
+          marginWidth={0}
+          name="spot_id_10002488"
+          src="https://a.adtng.com/get/10002488?ata=Malludesi"
+          title="Advertisement Large 2"
         />
       </div>
 
@@ -378,9 +417,26 @@ const VideoSearch: React.FC = () => {
       )}
 
       {/* Video Grid with Sidebar Ad Wrapper */}
-      <div style={{ display: 'flex', flexWrap: 'wrap-reverse', gap: '20px', alignItems: 'flex-start' }}>
+      <div style={{ display: 'flex', flexWrap: 'wrap', gap: '20px', alignItems: 'flex-start', justifyContent: 'center' }}>
         
-        {/* Left Video Grid */}
+        {/* Left Sidebar Ad (160x600 Skyscraper) */}
+        <div style={{ display: 'flex', justifyContent: 'center', width: '100%', maxWidth: '160px', margin: '0 auto' }}>
+          <iframe
+            style={{ backgroundColor: 'white', position: 'sticky', top: '20px' }}
+            width="160"
+            height="600"
+            scrolling="no"
+            frameBorder={0}
+            allowTransparency={true}
+            marginHeight={0}
+            marginWidth={0}
+            name="spot_id_10002487"
+            src="https://a.adtng.com/get/10002487?ata=Malludesi"
+            title="Sidebar Skyscraper Ad Left"
+          />
+        </div>
+
+        {/* Center Video Grid */}
         <div style={{ 
           flex: '1 1 300px',
           display: 'grid', 
@@ -575,8 +631,8 @@ const VideoSearch: React.FC = () => {
         />
       </div>
 
-      {/* Large Ad Banner - Bottom (900x250) */}
-      <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '20px', width: '100%', overflowX: 'auto' }}>
+      {/* Large Ad Banners - Bottom (900x250) */}
+      <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '20px', marginBottom: '20px', width: '100%', overflowX: 'auto' }}>
         <iframe
           style={{ backgroundColor: 'white' }}
           width="900"
@@ -588,7 +644,20 @@ const VideoSearch: React.FC = () => {
           marginWidth={0}
           name="spot_id_10001820"
           src="https://a.adtng.com/get/10001820?ata=Malludesi"
-          title="Large Bottom Ad"
+          title="Large Bottom Ad 1"
+        />
+        <iframe
+          style={{ backgroundColor: 'white' }}
+          width="900"
+          height="250"
+          scrolling="no"
+          frameBorder={0}
+          allowTransparency={true}
+          marginHeight={0}
+          marginWidth={0}
+          name="spot_id_10001818"
+          src="https://a.adtng.com/get/10001818?ata=Malludesi"
+          title="Large Bottom Ad 2"
         />
       </div>
     </div>
