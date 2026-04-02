@@ -169,6 +169,10 @@ const VideoSearch: React.FC = () => {
           src="https://a.adtng.com/get/10002801?ata=Malludesi"
           title="Leaderboard Ad 2"
         />
+        <iframe style={{ backgroundColor: 'white' }} width="728" height="90" scrolling="no" frameBorder={0} allowTransparency={true} marginHeight={0} marginWidth={0} name="spot_id_10008054" src="https://a.adtng.com/get/10008054?ata=Malludesi" title="Leaderboard Ad 3"/>
+        <iframe style={{ backgroundColor: 'white' }} width="728" height="90" scrolling="no" frameBorder={0} allowTransparency={true} marginHeight={0} marginWidth={0} name="spot_id_10008050" src="https://a.adtng.com/get/10008050?ata=Malludesi" title="Leaderboard Ad 4"/>
+        <iframe style={{ backgroundColor: 'white' }} width="728" height="90" scrolling="no" frameBorder={0} allowTransparency={true} marginHeight={0} marginWidth={0} name="spot_id_10008045" src="https://a.adtng.com/get/10008045?ata=Malludesi" title="Leaderboard Ad 5"/>
+        <iframe style={{ backgroundColor: 'white' }} width="728" height="90" scrolling="no" frameBorder={0} allowTransparency={true} marginHeight={0} marginWidth={0} name="spot_id_10002481" src="https://a.adtng.com/get/10002481?ata=Malludesi" title="Leaderboard Ad 6"/>
       </div>
 
       {/* API Source Selector */}
@@ -338,6 +342,10 @@ const VideoSearch: React.FC = () => {
           src="https://a.adtng.com/get/10002802?ata=Malludesi"
           title="Slim Ad 3"
         />
+        <iframe style={{ backgroundColor: 'white' }} width="300" height="100" scrolling="no" frameBorder={0} allowTransparency={true} marginHeight={0} marginWidth={0} name="spot_id_10008611" src="https://a.adtng.com/get/10008611?ata=Malludesi" title="Slim Ad 4"/>
+        <iframe style={{ backgroundColor: 'white' }} width="300" height="100" scrolling="no" frameBorder={0} allowTransparency={true} marginHeight={0} marginWidth={0} name="spot_id_10002483" src="https://a.adtng.com/get/10002483?ata=Malludesi" title="Slim Ad 5"/>
+        <iframe style={{ backgroundColor: 'white' }} width="300" height="100" scrolling="no" frameBorder={0} allowTransparency={true} marginHeight={0} marginWidth={0} name="spot_id_10002480" src="https://a.adtng.com/get/10002480?ata=Malludesi" title="Slim Ad 6"/>
+        <iframe style={{ backgroundColor: 'white' }} width="305" height="99" scrolling="no" frameBorder={0} allowTransparency={true} marginHeight={0} marginWidth={0} name="spot_id_10007345" src="https://a.adtng.com/get/10007345?ata=Malludesi" title="Slim Ad 7"/>
       </div>
 
       {/* Ad Banners - Main Row */}
@@ -446,6 +454,15 @@ const VideoSearch: React.FC = () => {
           src="https://a.adtng.com/get/10002798?ata=Malludesi"
           title="Advertisement Large 3"
         />
+        <iframe style={{ backgroundColor: 'white' }} width="300" height="250" scrolling="no" frameBorder={0} allowTransparency={true} marginHeight={0} marginWidth={0} name="spot_id_10006955" src="https://a.adtng.com/get/10006955?ata=Malludesi" title="Advertisement 6"/>
+        <iframe style={{ backgroundColor: 'white' }} width="300" height="250" scrolling="no" frameBorder={0} allowTransparency={true} marginHeight={0} marginWidth={0} name="spot_id_10005507" src="https://a.adtng.com/get/10005507?ata=Malludesi" title="Advertisement 7"/>
+        <iframe style={{ backgroundColor: 'white' }} width="300" height="250" scrolling="no" frameBorder={0} allowTransparency={true} marginHeight={0} marginWidth={0} name="spot_id_10007972" src="https://a.adtng.com/get/10007972?ata=Malludesi" title="Advertisement 8"/>
+        <iframe style={{ backgroundColor: 'white' }} width="300" height="250" scrolling="no" frameBorder={0} allowTransparency={true} marginHeight={0} marginWidth={0} name="spot_id_10008039" src="https://a.adtng.com/get/10008039?ata=Malludesi" title="Advertisement 9"/>
+        <iframe style={{ backgroundColor: 'white' }} width="315" height="300" scrolling="no" frameBorder={0} allowTransparency={true} marginHeight={0} marginWidth={0} name="spot_id_10005511" src="https://a.adtng.com/get/10005511?ata=Malludesi" title="Advertisement Large 4"/>
+        <iframe style={{ backgroundColor: 'white' }} width="315" height="300" scrolling="no" frameBorder={0} allowTransparency={true} marginHeight={0} marginWidth={0} name="spot_id_10005508" src="https://a.adtng.com/get/10005508?ata=Malludesi" title="Advertisement Large 5"/>
+        <iframe style={{ backgroundColor: 'white' }} width="315" height="300" scrolling="no" frameBorder={0} allowTransparency={true} marginHeight={0} marginWidth={0} name="spot_id_10008041" src="https://a.adtng.com/get/10008041?ata=Malludesi" title="Advertisement Large 6"/>
+        <iframe style={{ backgroundColor: 'white' }} width="315" height="300" scrolling="no" frameBorder={0} allowTransparency={true} marginHeight={0} marginWidth={0} name="spot_id_10002484" src="https://a.adtng.com/get/10002484?ata=Malludesi" title="Advertisement Large 7"/>
+        <iframe style={{ backgroundColor: 'white' }} width="315" height="300" scrolling="no" frameBorder={0} allowTransparency={true} marginHeight={0} marginWidth={0} name="spot_id_10002486" src="https://a.adtng.com/get/10002486?ata=Malludesi" title="Advertisement Large 8"/>
       </div>
 
       {errorMsg && (
@@ -472,20 +489,24 @@ const VideoSearch: React.FC = () => {
       <div style={{ display: 'flex', flexWrap: 'wrap', gap: '20px', alignItems: 'flex-start', justifyContent: 'center' }}>
         
         {/* Left Sidebar Ad (160x600 Skyscraper) */}
-        <div style={{ display: 'flex', justifyContent: 'center', width: '100%', maxWidth: '160px', margin: '0 auto' }}>
-          <iframe
-            style={{ backgroundColor: 'white', position: 'sticky', top: '20px' }}
-            width="160"
-            height="600"
-            scrolling="no"
-            frameBorder={0}
-            allowTransparency={true}
-            marginHeight={0}
-            marginWidth={0}
-            name="spot_id_10002487"
-            src="https://a.adtng.com/get/10002487?ata=Malludesi"
-            title="Sidebar Skyscraper Ad Left"
-          />
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '20px', justifyContent: 'flex-start', width: '100%', maxWidth: '160px', margin: '0 auto' }}>
+          <div style={{ position: 'sticky', top: '20px', display: 'flex', flexDirection: 'column', gap: '20px' }}>
+            <iframe
+              style={{ backgroundColor: 'white' }}
+              width="160"
+              height="600"
+              scrolling="no"
+              frameBorder={0}
+              allowTransparency={true}
+              marginHeight={0}
+              marginWidth={0}
+              name="spot_id_10002487"
+              src="https://a.adtng.com/get/10002487?ata=Malludesi"
+              title="Sidebar Skyscraper Ad Left 1"
+            />
+            <iframe style={{ backgroundColor: 'white' }} width="160" height="600" scrolling="no" frameBorder={0} allowTransparency={true} marginHeight={0} marginWidth={0} name="spot_id_10008052" src="https://a.adtng.com/get/10008052?ata=Malludesi" title="Sidebar Skyscraper Ad Left 2"/>
+            <iframe style={{ backgroundColor: 'white' }} width="160" height="600" scrolling="no" frameBorder={0} allowTransparency={true} marginHeight={0} marginWidth={0} name="spot_id_10008048" src="https://a.adtng.com/get/10008048?ata=Malludesi" title="Sidebar Skyscraper Ad Left 3"/>
+          </div>
         </div>
 
         {/* Center Video Grid */}
@@ -671,6 +692,8 @@ const VideoSearch: React.FC = () => {
               src="https://a.adtng.com/get/10002797?ata=Malludesi"
               title="Sidebar Skyscraper Ad Right 2"
             />
+            <iframe style={{ backgroundColor: 'white' }} width="160" height="600" scrolling="no" frameBorder={0} allowTransparency={true} marginHeight={0} marginWidth={0} name="spot_id_10008036" src="https://a.adtng.com/get/10008036?ata=Malludesi" title="Sidebar Skyscraper Ad Right 3"/>
+            <iframe style={{ backgroundColor: 'white' }} width="160" height="600" scrolling="no" frameBorder={0} allowTransparency={true} marginHeight={0} marginWidth={0} name="spot_id_10002485" src="https://a.adtng.com/get/10002485?ata=Malludesi" title="Sidebar Skyscraper Ad Right 4"/>
           </div>
         </div>
       </div>
