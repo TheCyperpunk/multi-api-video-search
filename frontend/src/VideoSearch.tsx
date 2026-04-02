@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import {
-  TopHeroBanner,
   LeaderboardAds,
   SlimAds,
   SquareAds300,
@@ -117,8 +116,6 @@ const VideoSearch: React.FC = () => {
       <h1 style={{ textAlign: 'center', marginBottom: '10px', color: '#333' }}>🔥 Multi-API Video Search</h1>
       <p style={{ textAlign: 'center', marginBottom: '20px', color: '#666' }}>Search and browse videos from multiple sources</p>
 
-      {/* ── Ad Zone 1: Top Hero Banner (900×250) ── */}
-      <TopHeroBanner />
 
       {/* ── Ad Zone 2: Leaderboards (728×90 × 6) ── */}
       <LeaderboardAds />
