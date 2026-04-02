@@ -494,7 +494,7 @@ const VideoSearch: React.FC = () => {
       )}
 
       {/* Ad Banner - Bottom */}
-      <div style={{ display: 'flex', justifyContent: 'center', marginTop: '30px', marginBottom: '10px' }}>
+      <div style={{ display: 'flex', justifyContent: 'center', marginTop: '30px', marginBottom: '20px' }}>
         <iframe
           style={{ backgroundColor: 'white' }}
           width="300"
@@ -507,6 +507,23 @@ const VideoSearch: React.FC = () => {
           name="spot_id_10001807_bottom"
           src="https://a.adtng.com/get/10001807?ata=Malludesi"
           title="Advertisement"
+        />
+      </div>
+
+      {/* Large Ad Banner - Bottom (900x250) */}
+      <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '20px', width: '100%', overflowX: 'auto' }}>
+        <iframe
+          style={{ backgroundColor: 'white' }}
+          width="900"
+          height="250"
+          scrolling="no"
+          frameBorder={0}
+          allowTransparency={true}
+          marginHeight={0}
+          marginWidth={0}
+          name="spot_id_10001820"
+          src="https://a.adtng.com/get/10001820?ata=Malludesi"
+          title="Large Bottom Ad"
         />
       </div>
     </div>
