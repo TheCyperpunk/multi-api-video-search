@@ -348,47 +348,54 @@ const VideoSearch: React.FC = () => {
         <iframe style={{ backgroundColor: 'white' }} width="305" height="99" scrolling="no" frameBorder={0} allowTransparency={true} marginHeight={0} marginWidth={0} name="spot_id_10007345" src="https://a.adtng.com/get/10007345?ata=Malludesi" title="Slim Ad 7"/>
       </div>
 
+      {/* ── 300×250 Ads (Rows 1–4) ─────────────────────────── */}
 
-      {/* Ad Row 1 of 6 */}
+      {/* 300×250 Row 1 */}
       <div style={{ display: 'flex', justifyContent: 'center', gap: '20px', flexWrap: 'wrap', marginBottom: '16px' }}>
-        <iframe style={{ backgroundColor: 'white' }} width="300" height="250" scrolling="no" frameBorder={0} allowTransparency={true} marginHeight={0} marginWidth={0} name="spot_id_10001807" src="https://a.adtng.com/get/10001807?ata=Malludesi" title="Ad Row1-1"/>
-        <iframe style={{ backgroundColor: 'white' }} width="300" height="250" scrolling="no" frameBorder={0} allowTransparency={true} marginHeight={0} marginWidth={0} name="spot_id_10002808" src="https://a.adtng.com/get/10002808?ata=Malludesi" title="Ad Row1-2"/>
-        <iframe style={{ backgroundColor: 'white' }} width="300" height="250" scrolling="no" frameBorder={0} allowTransparency={true} marginHeight={0} marginWidth={0} name="spot_id_10001808" src="https://a.adtng.com/get/10001808?ata=Malludesi" title="Ad Row1-3"/>
+        <iframe style={{ backgroundColor: 'white' }} width="300" height="250" scrolling="no" frameBorder={0} allowTransparency={true} marginHeight={0} marginWidth={0} name="spot_id_10001807" src="https://a.adtng.com/get/10001807?ata=Malludesi" title="300x250 Ad 1"/>
+        <iframe style={{ backgroundColor: 'white' }} width="300" height="250" scrolling="no" frameBorder={0} allowTransparency={true} marginHeight={0} marginWidth={0} name="spot_id_10002808" src="https://a.adtng.com/get/10002808?ata=Malludesi" title="300x250 Ad 2"/>
+        <iframe style={{ backgroundColor: 'white' }} width="300" height="250" scrolling="no" frameBorder={0} allowTransparency={true} marginHeight={0} marginWidth={0} name="spot_id_10001808" src="https://a.adtng.com/get/10001808?ata=Malludesi" title="300x250 Ad 3"/>
       </div>
 
-      {/* Ad Row 2 of 6 */}
+      {/* 300×250 Row 2 */}
       <div style={{ display: 'flex', justifyContent: 'center', gap: '20px', flexWrap: 'wrap', marginBottom: '16px' }}>
-        <iframe style={{ backgroundColor: 'white' }} width="300" height="250" scrolling="no" frameBorder={0} allowTransparency={true} marginHeight={0} marginWidth={0} name="spot_id_10001813" src="https://a.adtng.com/get/10001813?ata=Malludesi" title="Ad Row2-1"/>
-        <iframe style={{ backgroundColor: 'white' }} width="315" height="300" scrolling="no" frameBorder={0} allowTransparency={true} marginHeight={0} marginWidth={0} name="spot_id_10001816" src="https://a.adtng.com/get/10001816?ata=Malludesi" title="Ad Row2-2"/>
-        <iframe style={{ backgroundColor: 'white' }} width="315" height="300" scrolling="no" frameBorder={0} allowTransparency={true} marginHeight={0} marginWidth={0} name="spot_id_10002488" src="https://a.adtng.com/get/10002488?ata=Malludesi" title="Ad Row2-3"/>
+        <iframe style={{ backgroundColor: 'white' }} width="300" height="250" scrolling="no" frameBorder={0} allowTransparency={true} marginHeight={0} marginWidth={0} name="spot_id_10001813" src="https://a.adtng.com/get/10001813?ata=Malludesi" title="300x250 Ad 4"/>
+        <iframe style={{ backgroundColor: 'white' }} width="300" height="250" scrolling="no" frameBorder={0} allowTransparency={true} marginHeight={0} marginWidth={0} name="spot_id_10002808_2" src="https://a.adtng.com/get/10002808?ata=Malludesi" title="300x250 Ad 5"/>
+        <iframe style={{ backgroundColor: 'white' }} width="300" height="250" scrolling="no" frameBorder={0} allowTransparency={true} marginHeight={0} marginWidth={0} name="spot_id_10006955" src="https://a.adtng.com/get/10006955?ata=Malludesi" title="300x250 Ad 6"/>
       </div>
 
-      {/* Ad Row 3 of 6 */}
+      {/* 300×250 Row 3 */}
       <div style={{ display: 'flex', justifyContent: 'center', gap: '20px', flexWrap: 'wrap', marginBottom: '16px' }}>
-        <iframe style={{ backgroundColor: 'white' }} width="300" height="250" scrolling="no" frameBorder={0} allowTransparency={true} marginHeight={0} marginWidth={0} name="spot_id_10002808_2" src="https://a.adtng.com/get/10002808?ata=Malludesi" title="Ad Row3-1"/>
-        <iframe style={{ backgroundColor: 'white' }} width="315" height="300" scrolling="no" frameBorder={0} allowTransparency={true} marginHeight={0} marginWidth={0} name="spot_id_10002798" src="https://a.adtng.com/get/10002798?ata=Malludesi" title="Ad Row3-2"/>
-        <iframe style={{ backgroundColor: 'white' }} width="300" height="250" scrolling="no" frameBorder={0} allowTransparency={true} marginHeight={0} marginWidth={0} name="spot_id_10006955" src="https://a.adtng.com/get/10006955?ata=Malludesi" title="Ad Row3-3"/>
+        <iframe style={{ backgroundColor: 'white' }} width="300" height="250" scrolling="no" frameBorder={0} allowTransparency={true} marginHeight={0} marginWidth={0} name="spot_id_10005507" src="https://a.adtng.com/get/10005507?ata=Malludesi" title="300x250 Ad 7"/>
+        <iframe style={{ backgroundColor: 'white' }} width="300" height="250" scrolling="no" frameBorder={0} allowTransparency={true} marginHeight={0} marginWidth={0} name="spot_id_10007972" src="https://a.adtng.com/get/10007972?ata=Malludesi" title="300x250 Ad 8"/>
+        <iframe style={{ backgroundColor: 'white' }} width="300" height="250" scrolling="no" frameBorder={0} allowTransparency={true} marginHeight={0} marginWidth={0} name="spot_id_10008039" src="https://a.adtng.com/get/10008039?ata=Malludesi" title="300x250 Ad 9"/>
       </div>
 
-      {/* Ad Row 4 of 6 */}
-      <div style={{ display: 'flex', justifyContent: 'center', gap: '20px', flexWrap: 'wrap', marginBottom: '16px' }}>
-        <iframe style={{ backgroundColor: 'white' }} width="300" height="250" scrolling="no" frameBorder={0} allowTransparency={true} marginHeight={0} marginWidth={0} name="spot_id_10005507" src="https://a.adtng.com/get/10005507?ata=Malludesi" title="Ad Row4-1"/>
-        <iframe style={{ backgroundColor: 'white' }} width="300" height="250" scrolling="no" frameBorder={0} allowTransparency={true} marginHeight={0} marginWidth={0} name="spot_id_10007972" src="https://a.adtng.com/get/10007972?ata=Malludesi" title="Ad Row4-2"/>
-        <iframe style={{ backgroundColor: 'white' }} width="300" height="250" scrolling="no" frameBorder={0} allowTransparency={true} marginHeight={0} marginWidth={0} name="spot_id_10008039" src="https://a.adtng.com/get/10008039?ata=Malludesi" title="Ad Row4-3"/>
+      {/* 300×250 Row 4 (last) */}
+      <div style={{ display: 'flex', justifyContent: 'center', gap: '20px', flexWrap: 'wrap', marginBottom: '32px' }}>
+        <iframe style={{ backgroundColor: 'white' }} width="300" height="250" scrolling="no" frameBorder={0} allowTransparency={true} marginHeight={0} marginWidth={0} name="spot_id_10002799" src="https://a.adtng.com/get/10002799?ata=Malludesi" title="300x250 Ad 10"/>
       </div>
 
-      {/* Ad Row 5 of 6 */}
+      {/* ── 315×300 Ads (Rows 5–7) ─────────────────────────── */}
+
+      {/* 315×300 Row 1 */}
       <div style={{ display: 'flex', justifyContent: 'center', gap: '20px', flexWrap: 'wrap', marginBottom: '16px' }}>
-        <iframe style={{ backgroundColor: 'white' }} width="315" height="300" scrolling="no" frameBorder={0} allowTransparency={true} marginHeight={0} marginWidth={0} name="spot_id_10005511" src="https://a.adtng.com/get/10005511?ata=Malludesi" title="Ad Row5-1"/>
-        <iframe style={{ backgroundColor: 'white' }} width="315" height="300" scrolling="no" frameBorder={0} allowTransparency={true} marginHeight={0} marginWidth={0} name="spot_id_10005508" src="https://a.adtng.com/get/10005508?ata=Malludesi" title="Ad Row5-2"/>
-        <iframe style={{ backgroundColor: 'white' }} width="315" height="300" scrolling="no" frameBorder={0} allowTransparency={true} marginHeight={0} marginWidth={0} name="spot_id_10008041" src="https://a.adtng.com/get/10008041?ata=Malludesi" title="Ad Row5-3"/>
+        <iframe style={{ backgroundColor: 'white' }} width="315" height="300" scrolling="no" frameBorder={0} allowTransparency={true} marginHeight={0} marginWidth={0} name="spot_id_10001816" src="https://a.adtng.com/get/10001816?ata=Malludesi" title="315x300 Ad 1"/>
+        <iframe style={{ backgroundColor: 'white' }} width="315" height="300" scrolling="no" frameBorder={0} allowTransparency={true} marginHeight={0} marginWidth={0} name="spot_id_10002488" src="https://a.adtng.com/get/10002488?ata=Malludesi" title="315x300 Ad 2"/>
+        <iframe style={{ backgroundColor: 'white' }} width="315" height="300" scrolling="no" frameBorder={0} allowTransparency={true} marginHeight={0} marginWidth={0} name="spot_id_10002798" src="https://a.adtng.com/get/10002798?ata=Malludesi" title="315x300 Ad 3"/>
       </div>
 
-      {/* Ad Row 6 of 6 */}
+      {/* 315×300 Row 2 */}
+      <div style={{ display: 'flex', justifyContent: 'center', gap: '20px', flexWrap: 'wrap', marginBottom: '16px' }}>
+        <iframe style={{ backgroundColor: 'white' }} width="315" height="300" scrolling="no" frameBorder={0} allowTransparency={true} marginHeight={0} marginWidth={0} name="spot_id_10005511" src="https://a.adtng.com/get/10005511?ata=Malludesi" title="315x300 Ad 4"/>
+        <iframe style={{ backgroundColor: 'white' }} width="315" height="300" scrolling="no" frameBorder={0} allowTransparency={true} marginHeight={0} marginWidth={0} name="spot_id_10005508" src="https://a.adtng.com/get/10005508?ata=Malludesi" title="315x300 Ad 5"/>
+        <iframe style={{ backgroundColor: 'white' }} width="315" height="300" scrolling="no" frameBorder={0} allowTransparency={true} marginHeight={0} marginWidth={0} name="spot_id_10008041" src="https://a.adtng.com/get/10008041?ata=Malludesi" title="315x300 Ad 6"/>
+      </div>
+
+      {/* 315×300 Row 3 (last) */}
       <div style={{ display: 'flex', justifyContent: 'center', gap: '20px', flexWrap: 'wrap', marginBottom: '20px' }}>
-        <iframe style={{ backgroundColor: 'white' }} width="315" height="300" scrolling="no" frameBorder={0} allowTransparency={true} marginHeight={0} marginWidth={0} name="spot_id_10002484" src="https://a.adtng.com/get/10002484?ata=Malludesi" title="Ad Row6-1"/>
-        <iframe style={{ backgroundColor: 'white' }} width="315" height="300" scrolling="no" frameBorder={0} allowTransparency={true} marginHeight={0} marginWidth={0} name="spot_id_10002486" src="https://a.adtng.com/get/10002486?ata=Malludesi" title="Ad Row6-2"/>
-        <iframe style={{ backgroundColor: 'white' }} width="300" height="250" scrolling="no" frameBorder={0} allowTransparency={true} marginHeight={0} marginWidth={0} name="spot_id_10002799" src="https://a.adtng.com/get/10002799?ata=Malludesi" title="Ad Row6-3"/>
+        <iframe style={{ backgroundColor: 'white' }} width="315" height="300" scrolling="no" frameBorder={0} allowTransparency={true} marginHeight={0} marginWidth={0} name="spot_id_10002484" src="https://a.adtng.com/get/10002484?ata=Malludesi" title="315x300 Ad 7"/>
+        <iframe style={{ backgroundColor: 'white' }} width="315" height="300" scrolling="no" frameBorder={0} allowTransparency={true} marginHeight={0} marginWidth={0} name="spot_id_10002486" src="https://a.adtng.com/get/10002486?ata=Malludesi" title="315x300 Ad 8"/>
       </div>
 
 
