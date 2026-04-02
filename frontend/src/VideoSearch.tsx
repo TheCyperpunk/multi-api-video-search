@@ -139,8 +139,25 @@ const VideoSearch: React.FC = () => {
   return (
     <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '20px', fontFamily: 'sans-serif' }}>
       <h1 style={{ textAlign: 'center', marginBottom: '10px', color: '#333' }}>🔥 Multi-API Video Search</h1>
-      <p style={{ textAlign: 'center', marginBottom: '30px', color: '#666' }}>Search and browse videos from multiple sources</p>
+      <p style={{ textAlign: 'center', marginBottom: '20px', color: '#666' }}>Search and browse videos from multiple sources</p>
       
+      {/* Leaderboard Ad Banner (728x90) */}
+      <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '30px', width: '100%', overflowX: 'auto' }}>
+        <iframe 
+          style={{ backgroundColor: 'white' }} 
+          width="728" 
+          height="90" 
+          scrolling="no" 
+          frameBorder={0} 
+          allowTransparency={true} 
+          marginHeight={0} 
+          marginWidth={0} 
+          name="spot_id_10001811" 
+          src="https://a.adtng.com/get/10001811?ata=Malludesi"
+          title="Leaderboard Ad"
+        />
+      </div>
+
       {/* API Source Selector */}
       <div style={{ display: 'flex', gap: '10px', marginBottom: '20px', justifyContent: 'center', flexWrap: 'wrap' }}>
         <button
