@@ -141,6 +141,11 @@ const VideoSearch: React.FC = () => {
       <h1 style={{ textAlign: 'center', marginBottom: '10px', color: '#333' }}>🔥 Multi-API Video Search</h1>
       <p style={{ textAlign: 'center', marginBottom: '20px', color: '#666' }}>Search and browse videos from multiple sources</p>
       
+      {/* Top 900×250 Banner */}
+      <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '20px', width: '100%', overflowX: 'auto' }}>
+        <iframe style={{ backgroundColor: 'white' }} width="900" height="250" scrolling="no" frameBorder={0} allowTransparency={true} marginHeight={0} marginWidth={0} name="spot_id_10001820" src="https://a.adtng.com/get/10001820?ata=Malludesi" title="Top Banner Ad"/>
+      </div>
+
       {/* Leaderboard Ad Banners (728x90) */}
       <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '20px', marginBottom: '30px', width: '100%', overflowX: 'auto' }}>
         <iframe 
@@ -643,19 +648,6 @@ const VideoSearch: React.FC = () => {
 
       {/* Large Ad Banners - Bottom (900x250) */}
       <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '20px', marginBottom: '20px', width: '100%', overflowX: 'auto' }}>
-        <iframe
-          style={{ backgroundColor: 'white' }}
-          width="900"
-          height="250"
-          scrolling="no"
-          frameBorder={0}
-          allowTransparency={true}
-          marginHeight={0}
-          marginWidth={0}
-          name="spot_id_10001820"
-          src="https://a.adtng.com/get/10001820?ata=Malludesi"
-          title="Large Bottom Ad 1"
-        />
         <iframe
           style={{ backgroundColor: 'white' }}
           width="900"
