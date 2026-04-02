@@ -463,6 +463,7 @@ const VideoSearch: React.FC = () => {
         <iframe style={{ backgroundColor: 'white' }} width="315" height="300" scrolling="no" frameBorder={0} allowTransparency={true} marginHeight={0} marginWidth={0} name="spot_id_10008041" src="https://a.adtng.com/get/10008041?ata=Malludesi" title="Advertisement Large 6"/>
         <iframe style={{ backgroundColor: 'white' }} width="315" height="300" scrolling="no" frameBorder={0} allowTransparency={true} marginHeight={0} marginWidth={0} name="spot_id_10002484" src="https://a.adtng.com/get/10002484?ata=Malludesi" title="Advertisement Large 7"/>
         <iframe style={{ backgroundColor: 'white' }} width="315" height="300" scrolling="no" frameBorder={0} allowTransparency={true} marginHeight={0} marginWidth={0} name="spot_id_10002486" src="https://a.adtng.com/get/10002486?ata=Malludesi" title="Advertisement Large 8"/>
+        <iframe style={{ backgroundColor: 'white' }} width="300" height="250" scrolling="no" frameBorder={0} allowTransparency={true} marginHeight={0} marginWidth={0} name="spot_id_10002799" src="https://a.adtng.com/get/10002799?ata=Malludesi" title="Advertisement 10"/>
       </div>
 
       {errorMsg && (
