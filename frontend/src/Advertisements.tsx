@@ -5,12 +5,6 @@ const Ad = (props: React.IframeHTMLAttributes<HTMLIFrameElement>) => (
   <iframe style={{ backgroundColor: 'white' }} scrolling="no" frameBorder={0} allowTransparency={true} marginHeight={0} marginWidth={0} {...props} />
 );
 
-// ─── 1. Top Hero Banner (900×250) ────────────────────────────────────────────
-export const TopHeroBanner: React.FC = () => (
-  <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '20px', width: '100%', overflowX: 'auto' }}>
-    <Ad width="900" height="250" name="spot_id_10001820" src="https://a.adtng.com/get/10001820?ata=Malludesi" title="Top Hero Banner" />
-  </div>
-);
 
 // ─── 2. Leaderboard Ads (728×90) — 6 units ───────────────────────────────────
 export const LeaderboardAds: React.FC = () => (
@@ -112,9 +106,10 @@ export const SidebarRightAds: React.FC = () => (
   </div>
 );
 
-// ─── 8. Bottom Banners (900×250) — 2 units ───────────────────────────────────
+// ─── 8. Bottom Banners (900×250) — 3 units ───────────────────────────────────
 export const BottomBanners: React.FC = () => (
   <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '20px', marginBottom: '20px', width: '100%', overflowX: 'auto' }}>
+    <Ad width="900" height="250" name="spot_id_10001820" src="https://a.adtng.com/get/10001820?ata=Malludesi" title="Bottom Banner" />
     <Ad width="900" height="250" name="spot_id_10001818" src="https://a.adtng.com/get/10001818?ata=Malludesi" title="Bottom Banner 1" />
     <Ad width="900" height="250" name="spot_id_10002800" src="https://a.adtng.com/get/10002800?ata=Malludesi" title="Bottom Banner 2" />
   </div>
