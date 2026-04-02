@@ -267,8 +267,8 @@ const VideoSearch: React.FC = () => {
         </button>
       </form>
 
-      {/* Ad Banner */}
-      <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '20px' }}>
+      {/* Ad Banners - Top Row */}
+      <div style={{ display: 'flex', justifyContent: 'center', gap: '20px', flexWrap: 'wrap', marginBottom: '20px' }}>
         <iframe
           style={{ backgroundColor: 'white' }}
           width="300"
@@ -281,6 +281,19 @@ const VideoSearch: React.FC = () => {
           name="spot_id_10001807"
           src="https://a.adtng.com/get/10001807?ata=Malludesi"
           title="Advertisement"
+        />
+        <iframe
+          style={{ backgroundColor: 'white' }}
+          width="300"
+          height="250"
+          scrolling="no"
+          frameBorder={0}
+          allowTransparency={true}
+          marginHeight={0}
+          marginWidth={0}
+          name="spot_id_10002808"
+          src="https://a.adtng.com/get/10002808?ata=Malludesi"
+          title="Advertisement 2"
         />
       </div>
 
